@@ -26,13 +26,13 @@ const App = () => (
       <u>It's a String Thing</u>
       <br/>
       <i style={{fontSize: 12}}>
-        Owner: Rachel Harris
+        <Link to='/about'>
+        <b style={{color: 'white'}}>-About-</b>
+        </Link>
         <br/>
-          <Link to='/about'>
-            <b style={{color: 'white'}}>-About-</b>
-          </Link>
+        © 2020 Website Created by Mason D Eyre
         <br/>
-        -Rachel's email-
+        <a href='mailto:mason.deyre@gmail.com' style={{color: 'white'}}>-mason.deyre@gmail.com-</a>
       </i>
       <br/>
     </p>
