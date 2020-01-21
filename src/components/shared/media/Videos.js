@@ -8,7 +8,7 @@ const Videos = () => (
 
   <div className='div'>
     <VideoNav/>
-    <Grid columns={2} style={{marginTop: 1}} textAlign='center'>
+    <Grid columns={2} style={{marginTop: 1}} textAlign='center' stackable>
       <video width="500" controls>
         <source src={CelloChristmas} type="video/mp4"/>
         Your browser does not support HTML5 video.

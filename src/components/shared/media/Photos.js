@@ -12,7 +12,7 @@ const Photos = () => (
 
   <div className='div'>
     <PhotoNav/>
-      <Grid columns={2} align='center'>
+      <Grid columns={2} align='center' stackable>
         <Grid.Column>
           <Image size='huge' src={Recital2}/>
           <Image size='huge' src={Recital1}/>
