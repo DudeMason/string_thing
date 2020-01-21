@@ -23,7 +23,7 @@ const App = () => (
     </Switch>
     <br/>
     <p align='center' style={{opacity: .5, fontSize: 17, color: 'white'}}>
-      It's a String Thing
+      <u>It's a String Thing</u>
       <br/>
       <i style={{fontSize: 12}}>
         Owner: Rachel Harris
