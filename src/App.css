@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+.landing {
+  background-image: url('./components/shared/media/images/2019Recital.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div {
+  background-color: #1A1A1A;
+  background-size: cover;
+  background-position: center;
+  height: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.seg {
+  opacity: .7;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background {
+  background-color: #1a1a1a;
+  background-size: cover;
+  background-position: center;
+  height: inherit;
 }

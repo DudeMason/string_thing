@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Switch, Link} from 'react-router-dom';
 import Home from './components/shared/Home';
 import Contact from './components/shared/Contact';
 import About from './components/shared/About';
@@ -11,7 +11,7 @@ import Navbar from './components/shared/Navbar';
 
 const App = () => (
 
-  <div>
+  <div className='background'>
     <Navbar />
     <Switch>
       <Route exact path='/' component={Home}/>
@@ -21,6 +21,21 @@ const App = () => (
       <Route exact path='/videos' component={Videos}/>
       <Route component={NoMatch} />
     </Switch>
+    <br/>
+    <p align='center' style={{opacity: .5, fontSize: 17, color: 'white'}}>
+      It's a String Thing
+      <br/>
+      <i style={{fontSize: 12}}>
+        Owner: Rachel Harris
+        <br/>
+          <Link to='/about'>
+            <b style={{color: 'white'}}>-About-</b>
+          </Link>
+        <br/>
+        -Rachel's email-
+      </i>
+      <br/>
+    </p>
   </div>
 )
 
