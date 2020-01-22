@@ -2,7 +2,7 @@ import React from 'react';
 import VideoNav from './VideoNav';
 import CelloChristmas from './images/CelloChristmas.mp4';
 import Beginners from './images/Beginners.mp4';
-import {Grid, Segment} from 'semantic-ui-react';
+import {Grid} from 'semantic-ui-react';
 
 const Videos = () => (
 

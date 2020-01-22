@@ -4,6 +4,12 @@ import {Segment} from 'semantic-ui-react'
 const Contact = () => (
 
   <div className='div' align='center'>
+    <br/>
+    <div>
+      <p style={{color: '#FEBE2A', fontSize: 30, opacity: .6}}>
+        It's a String Thing
+      </p>
+    </div>
     <Segment compact style={{marginTop: 200, marginBottom: 200}}>
       <p align='center'>
         Rachel Harris -- Owner
