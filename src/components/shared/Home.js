@@ -5,7 +5,7 @@ const Home = () => (
 
   <div className='landing'>
     <br/>
-    <Segment inverted align='center' className='seg'>
+    <Segment style={{opacity: 3}} inverted align='center' className='seg'>
       <h2>It's a String Thing</h2>
     </Segment>
   </div>

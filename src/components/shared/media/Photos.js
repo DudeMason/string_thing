@@ -1,6 +1,6 @@
 import React from 'react';
 import PhotoNav from './PhotoNav';
-import {Image, Grid} from 'semantic-ui-react';
+import {Image, Grid, Segment} from 'semantic-ui-react';
 import Recital2 from './images/2017Recital.jpg';
 import Recital1 from './images/2019Recital.jpg';
 import Christmas from './images/Christmas.jpg';
@@ -14,14 +14,26 @@ const Photos = () => (
     <PhotoNav/>
       <Grid columns={2} align='center' stackable>
         <Grid.Column>
-          <Image size='huge' src={Recital2}/>
-          <Image size='huge' src={Recital1}/>
-          <Image size='huge' src={Christmas}/>
+          <Segment compact>
+            <Image size='huge' src={Recital2}/>
+          </Segment>
+          <Segment compact>
+            <Image size='huge' src={Recital1}/>
+          </Segment>
+          <Segment compact>
+            <Image size='huge' src={Christmas}/>
+          </Segment>
         </Grid.Column>
         <Grid.Column>
-          <Image size='huge' src={ServiceChristmas}/>
-          <Image size='large' src={FunRecital}/>
-          <Image size='large' src={Instruments}/>
+          <Segment compact>
+            <Image size='huge' src={ServiceChristmas}/>
+          </Segment>
+          <Segment compact>
+            <Image size='large' src={FunRecital}/>
+          </Segment>
+          <Segment compact>
+            <Image size='large' src={Instruments}/>
+          </Segment>
         </Grid.Column>
       </Grid>
   </div>
