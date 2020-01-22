@@ -15,11 +15,11 @@ const Videos = () => (
     </div>
     <VideoNav/>
     <Grid columns={2} style={{marginTop: 1}} textAlign='center' stackable>
-      <video width="500" controls>
+      <video width="460" controls>
         <source src={CelloChristmas} type="video/mp4"/>
         Your browser does not support HTML5 video.
       </video>
-      <video width="500" controls>
+      <video width="460" controls>
         <source src={Beginners} type="video/mp4"/>
         Your browser does not support HTML5 video.
       </video>
