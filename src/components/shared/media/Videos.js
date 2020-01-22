@@ -7,6 +7,12 @@ import {Grid, Segment} from 'semantic-ui-react';
 const Videos = () => (
 
   <div className='div'>
+    <br/>
+    <div align='center'>
+      <p style={{color: '#FEBE2A', fontSize: 30, opacity: .6}}>
+        It's a String Thing
+      </p>
+    </div>
     <VideoNav/>
     <Grid columns={2} style={{marginTop: 1}} textAlign='center' stackable>
       <video width="500" controls>

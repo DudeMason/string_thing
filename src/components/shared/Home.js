@@ -9,7 +9,8 @@ const Home = () => (
       <p style={{color: '#FEBE2A', fontSize: 30}}>
         It's a
         <br/>
-        String Thing</p>
+        String Thing
+      </p>
       <p>
         Music School
       </p>

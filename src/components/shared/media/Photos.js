@@ -11,6 +11,12 @@ import ServiceChristmas from './images/ServiceChristmas.jpg';
 const Photos = () => (
 
   <div className='div'>
+    <br/>
+    <div align='center'>
+      <p style={{color: '#FEBE2A', fontSize: 30, opacity: .6}}>
+        It's a String Thing
+      </p>
+    </div>
     <PhotoNav/>
       <Grid columns={2} align='center' stackable>
         <Grid.Column>
