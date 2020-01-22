@@ -19,6 +19,11 @@ const Navbar = () => (
             Media
           </Menu.Item>
         </Link>
+        <Link to='/about'>
+          <Menu.Item>
+            About
+          </Menu.Item>
+        </Link>
         <Link to='/contact'>
           <Menu.Item>
             Contact

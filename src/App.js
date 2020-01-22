@@ -23,7 +23,7 @@ const App = () => (
     </Switch>
     <br/>
     <p align='center' style={{opacity: .5, fontSize: 17, color: 'white'}}>
-      <u>It's a String Thing</u>
+      <a href='/' style={{color: 'white'}}><u>It's a String Thing</u></a>
       <br/>
       <i style={{fontSize: 12}}>
         <Link to='/about'>
