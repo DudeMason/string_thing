@@ -5,7 +5,7 @@ const Home = () => (
 
   <div className='landing' align='center'>
     <br/>
-    <Segment style={{opacity: .9, padding: 60}} inverted compact align='center' className='seg'>
+    <Segment style={{opacity: .9, padding: 50}} inverted compact align='center' className='seg'>
       <p style={{color: '#FEBE2A', fontSize: 45}}>
         It's a
         <br/>
@@ -15,6 +15,12 @@ const Home = () => (
         Music School
       </p>
       <Divider/>
+      <p>
+        <br/>
+        Music quickens the mind,
+        <br/>
+        and strengthens the stride!
+      </p>
     </Segment>
   </div>
 )
