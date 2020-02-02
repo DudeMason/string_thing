@@ -21,21 +21,22 @@ const App = () => (
       <Route exact path='/videos' component={Videos}/>
       <Route component={NoMatch} />
     </Switch>
-    <br/>
-    <p align='center' style={{opacity: .5, fontSize: 17, color: 'white'}}>
-      <a href='/' style={{color: 'white'}}><u>It's a String Thing</u></a>
-      <br/>
-      <i style={{fontSize: 12}}>
-        <Link to='/about'>
-        <b style={{color: 'white'}}>-About-</b>
-        </Link>
+    <div>
+      <p align='center' style={{opacity: .5, fontSize: 17, color: 'white', marginTop: 40, paddingBottom: 20}}>
+        <a href='/' style={{color: 'white'}}><u>It's a String Thing</u></a>
         <br/>
-        © 2020 Website Created by Mason D Eyre
+        <i style={{fontSize: 12}}>
+          <Link to='/about'>
+          <b style={{color: 'white'}}>-About-</b>
+          </Link>
+          <br/>
+          © 2020 Website Created by Mason D Eyre
+          <br/>
+          <a href='mailto:mason.deyre@gmail.com' style={{color: 'white'}}>-mason.deyre@gmail.com-</a>
+        </i>
         <br/>
-        <a href='mailto:mason.deyre@gmail.com' style={{color: 'white'}}>-mason.deyre@gmail.com-</a>
-      </i>
-      <br/>
-    </p>
+      </p>
+    </div>
   </div>
 )
 

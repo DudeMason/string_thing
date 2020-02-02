@@ -14,14 +14,14 @@ const Navbar = () => (
         </Link>
       </Menu.Menu>
       <Menu.Menu position='right'>
-        <Link to='/photos'>
-          <Menu.Item>
-            Media
-          </Menu.Item>
-        </Link>
         <Link to='/about'>
           <Menu.Item>
             About
+          </Menu.Item>
+        </Link>
+        <Link to='/photos'>
+          <Menu.Item>
+            Media
           </Menu.Item>
         </Link>
         <Link to='/contact'>

@@ -10,13 +10,14 @@ const Contact = () => (
         It's a String Thing
       </p>
     </div>
-    <Segment compact style={{marginTop: 200, marginBottom: 100}}>
-      <p align='center'>
+    <Segment inverted compact style={{marginTop: 100, marginBottom: 100}}>
+      <p align='center' style={{fontSize: 20}}>
         Rachel Harris -- Owner
         <br/>
         <a href='mailto:racheljh5514@gmail.com'><u>racheljh5514@gmail.com</u></a>
         <br/>
-        Social?
+        <br/>
+        Social Medias?
       </p>
     </Segment>
   </div>

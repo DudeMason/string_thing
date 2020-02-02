@@ -7,9 +7,6 @@
 }
 
 .div {
-  background-color: #1A1A1A;
-  background-size: cover;
-  background-position: center;
   height: 100vh;
 }
 
@@ -18,8 +15,7 @@
 }
 
 .background {
-  background-color: #1a1a1a;
+  background-color: #1E1E1E;
   background-size: cover;
   background-position: center;
-  height: inherit;
 }
