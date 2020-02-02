@@ -15,6 +15,8 @@ function PicViewer() {
     ServiceChristmas,
     Christmas,
     Recital2,
+  ];
+  const biggerImages = [
     Instruments,
     FunRecital,
   ];
@@ -32,6 +34,17 @@ function PicViewer() {
   return (
     <div>
       {images.map((src, index) => (
+        <img
+          src={src}
+          onClick={() => openImageViewer(index)}
+          width="300"
+          key={index}
+          style={{ margin: "2px" }}
+          alt=""
+        />
+      ))}
+      <br/>
+      {biggerImages.map((src, index) => (
         <img
           src={src}
           onClick={() => openImageViewer(index)}

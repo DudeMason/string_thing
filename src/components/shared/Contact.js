@@ -10,7 +10,7 @@ const Contact = () => (
         It's a String Thing
       </p>
     </div>
-    <Segment compact style={{marginTop: 200, marginBottom: 200}}>
+    <Segment compact style={{marginTop: 200, marginBottom: 100}}>
       <p align='center'>
         Rachel Harris -- Owner
         <br/>

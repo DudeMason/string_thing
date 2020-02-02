@@ -2,15 +2,15 @@
   background-image: url('./components/shared/media/images/2019Recital.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
   opacity: .7;
+  height: 100vh;
 }
 
 .div {
   background-color: #1A1A1A;
   background-size: cover;
   background-position: center;
-  height: inherit;
+  height: 100vh;
 }
 
 .seg {

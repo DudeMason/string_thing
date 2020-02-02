@@ -30,11 +30,11 @@ const About = () => (
       </li>
       <li>
         Get you ready to play in group lessons as soon as possible.
-        Anyone can say all they wat is to be a soloist, but in all honesty,
+        Anyone can say all they want is to be a soloist, but in all honesty,
         students must also be able to play with others to become a decent soloist.
         This is why <b>group</b> lessons are such a priority for my students and me.
         Group lessons also become everyone's favorite part
-        of taking lessons from my associates and me!
+        of taking lessons from my associates and I!
       </li>
     </ol>
   </div>
