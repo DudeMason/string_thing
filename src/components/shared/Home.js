@@ -1,21 +1,21 @@
 import React from 'react';
-import {Segment, Divider} from 'semantic-ui-react';
+import {Segment} from 'semantic-ui-react';
 
 const Home = () => (
 
   <div className='landing' align='center'>
     <br/>
-    <Segment style={{opacity: .9, padding: 50}} inverted compact align='center' className='seg'>
-      <p style={{color: '#FEBE2A', fontSize: 45}}>
+    <Segment inverted compact align='center' style={{opacity: .85, padding: 65}}>
+      <p style={{color: '#FEBE2A', fontSize: 48}}>
         It's a
         <br/>
         String Thing
       </p>
-      <p style={{fontSize: 17}}>
+      <p style={{fontSize: 21}}>
         Music School
       </p>
-      <Divider/>
-      <p>
+      <hr/>
+      <p style={{fontSize: 15}}>
         <br/>
         Music quickens the mind,
         <br/>

@@ -1,5 +1,5 @@
 .landing {
-  background-image: url('./components/shared/media/images/2019Recital.jpg');
+  background-image: url('./components/shared/media/images/SymphonyHall.png');
   background-size: cover;
   background-position: center;
   opacity: .7;
@@ -10,8 +10,8 @@
   height: 100vh;
 }
 
-.seg {
-  opacity: .7;
+.landing hr {
+  color: grey;
 }
 
 .background {
