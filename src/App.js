@@ -21,7 +21,7 @@ const App = () => (
       <Route exact path='/videos' component={Videos}/>
       <Route component={NoMatch} />
     </Switch>
-    <div className='black'>
+    <div className='watermark'>
       <p align='center' style={{opacity: .5, fontSize: 17, color: 'white'}}>
         <a href='/' style={{color: 'white'}}><u>It's a String Thing</u></a>
         <br/>

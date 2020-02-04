@@ -15,16 +15,14 @@ const Videos = () => (
     </div>
     <VideoNav/>
     <div className='media'>
-      <Grid columns={2} textAlign='center' stackable className='box'>
-        <video width="460" controls>
-          <source src={CelloChristmas} type="video/mp4"/>
-          Your browser does not support HTML5 video.
-        </video>
-        <video width="460" controls>
-          <source src={Beginners} type="video/mp4"/>
-          Your browser does not support HTML5 video.
-        </video>
-      </Grid>
+      <video width="460" controls>
+        <source src={CelloChristmas} type="video/mp4"/>
+        Your browser does not support HTML5 video.
+      </video>
+      <video width="460" controls>
+        <source src={Beginners} type="video/mp4"/>
+        Your browser does not support HTML5 video.
+      </video>
     </div>
   </div>
 )
