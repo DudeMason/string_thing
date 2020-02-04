@@ -1,21 +1,46 @@
 .landing {
-  background-image: url('./components/shared/media/images/SymphonyHall.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./components/shared/media/images/SymphonyHall.png');
   background-size: cover;
   background-position: center;
-  opacity: .7;
   height: 100vh;
 }
 
 .div {
-  height: 100vh;
+  height: 102vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./components/shared/media/images/2019Recital.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(110vh);
+  overflow-y: auto;
+}
+
+.title {
+  color: #FEBE2A;
+  font-size: 30pt;
+  opacity: .6;
+  padding-bottom: 20px;
 }
 
 .landing hr {
   color: grey;
 }
 
-.background {
-  background-color: #1E1E1E;
-  background-size: cover;
-  background-position: center;
+.black {
+  background-color: #000000;
+  opacity: .95;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.media{
+  background-color: #000000;
+  opacity: .93;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.div video {
+  margin-top: -20px;
+  width: 440px;
 }

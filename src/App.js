@@ -11,7 +11,7 @@ import Navbar from './components/shared/Navbar';
 
 const App = () => (
 
-  <div className='background'>
+  <div>
     <Navbar />
     <Switch>
       <Route exact path='/' component={Home}/>
@@ -21,8 +21,8 @@ const App = () => (
       <Route exact path='/videos' component={Videos}/>
       <Route component={NoMatch} />
     </Switch>
-    <div>
-      <p align='center' style={{opacity: .5, fontSize: 17, color: 'white', marginTop: 40, paddingBottom: 20}}>
+    <div className='black'>
+      <p align='center' style={{opacity: .5, fontSize: 17, color: 'white'}}>
         <a href='/' style={{color: 'white'}}><u>It's a String Thing</u></a>
         <br/>
         <i style={{fontSize: 12}}>
@@ -32,7 +32,13 @@ const App = () => (
           <br/>
           © 2020 Website Created by Mason D Eyre
           <br/>
-          <a href='mailto:mason.deyre@gmail.com' style={{color: 'white'}}>-mason.deyre@gmail.com-</a>
+          <a href='mailto:mason.deyre@gmail.com' style={{color: 'white'}}>
+            -mason.deyre@gmail.com-
+          </a>
+          <br/>
+          <a href='http://www.masoneyre.com' style={{color: 'white'}}>
+            www.masoneyre.com
+          </a>
         </i>
         <br/>
       </p>

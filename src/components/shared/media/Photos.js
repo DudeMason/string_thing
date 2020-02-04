@@ -7,12 +7,14 @@ const Photos = () => (
   <div className='div' align='center'>
     <br/>
     <div>
-      <p style={{color: '#FEBE2A', fontSize: 30, opacity: .6}}>
+      <p className='title'>
         It's a String Thing
       </p>
     </div>
     <PhotoNav/>
+    <div className='media'>
       <PicViewer/>
+    </div>
   </div>
 )
 

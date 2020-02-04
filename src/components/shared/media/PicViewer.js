@@ -10,6 +10,10 @@ import ServiceChristmas from './images/ServiceChristmas.jpg';
 function PicViewer() {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
+
+  const [currentBigImage, setCurrentBigImage] = useState(0);
+  const [isBigViewerOpen, setIsBigViewerOpen] = useState(false);
+
   const images = [
     Recital1,
     ServiceChristmas,
@@ -25,10 +29,18 @@ function PicViewer() {
     setCurrentImage(index);
     setIsViewerOpen(true);
   }, []);
-
   const closeImageViewer = () => {
     setCurrentImage(0);
     setIsViewerOpen(false);
+  };
+
+  const openBigImageViewer = useCallback(index => {
+    setCurrentBigImage(index);
+    setIsBigViewerOpen(true);
+  }, []);
+  const closeBigImageViewer = () => {
+    setCurrentBigImage(0);
+    setIsBigViewerOpen(false);
   };
 
   return (
@@ -47,7 +59,7 @@ function PicViewer() {
       {biggerImages.map((src, index) => (
         <img
           src={src}
-          onClick={() => openImageViewer(index)}
+          onClick={() => openBigImageViewer(index)}
           width="300"
           key={index}
           style={{ margin: "2px" }}
@@ -60,6 +72,16 @@ function PicViewer() {
           src={images}
           currentIndex={currentImage}
           onClose={closeImageViewer}
+          backgroundStyle={{
+            backgroundColor: "rgba(0,0,0,0.9)"
+          }}
+        />
+      )}
+      {isBigViewerOpen && (
+        <ImageViewer
+          src={biggerImages}
+          currentIndex={currentBigImage}
+          onClose={closeBigImageViewer}
           backgroundStyle={{
             backgroundColor: "rgba(0,0,0,0.9)"
           }}

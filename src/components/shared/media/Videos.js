@@ -9,21 +9,23 @@ const Videos = () => (
   <div className='div'>
     <br/>
     <div align='center'>
-      <p style={{color: '#FEBE2A', fontSize: 30, opacity: .6}}>
+      <p className='title'>
         It's a String Thing
       </p>
     </div>
     <VideoNav/>
-    <Grid columns={2} style={{marginTop: 1}} textAlign='center' stackable>
-      <video width="460" controls>
-        <source src={CelloChristmas} type="video/mp4"/>
-        Your browser does not support HTML5 video.
-      </video>
-      <video width="460" controls>
-        <source src={Beginners} type="video/mp4"/>
-        Your browser does not support HTML5 video.
-      </video>
-    </Grid>
+    <div className='media'>
+      <Grid columns={2} textAlign='center' stackable className='box'>
+        <video width="460" controls>
+          <source src={CelloChristmas} type="video/mp4"/>
+          Your browser does not support HTML5 video.
+        </video>
+        <video width="460" controls>
+          <source src={Beginners} type="video/mp4"/>
+          Your browser does not support HTML5 video.
+        </video>
+      </Grid>
+    </div>
   </div>
 )
 
