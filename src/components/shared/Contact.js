@@ -19,7 +19,7 @@ const Contact = () => (
         Rachel Harris -- Owner
       </p>
       <p>
-        <a href='mailto:racheljh5514@gmail.com'><u>racheljh5514@gmail.com</u></a>
+        <a href='mailto:racheljh5514@gmail.com' target='_blank' rel="noopener noreferrer"><u>racheljh5514@gmail.com</u></a>
         <br/>
         <br/>
         <a href='https://www.facebook.com/cellobabe18' target='_blank' rel="noopener noreferrer">
