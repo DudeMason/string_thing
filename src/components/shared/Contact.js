@@ -22,7 +22,7 @@ const Contact = () => (
         <a href='mailto:racheljh5514@gmail.com'><u>racheljh5514@gmail.com</u></a>
         <br/>
         <br/>
-        <a href='https://www.facebook.com/cellbabe18' target='_blank' rel="noopener noreferrer">
+        <a href='https://www.facebook.com/cellobabe18' target='_blank' rel="noopener noreferrer">
           <Icon name='facebook' size='big'/>
         </a>
       </p>
